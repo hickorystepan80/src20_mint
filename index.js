@@ -2,7 +2,7 @@ const { Connection, Keypair, PublicKey, sendAndConfirmTransaction, Transaction, 
 const bs58 = require("bs58");
 
 
-var secret = "your secret key"
+var secret = "59wnKHovYATqykhnkjRb9uTKEjaaQYU6WRvQZ5C5WuHN7Ho2YajRXEzxckUzQpZNGgu4hiKAnv4HpjvxKiVGu9jV"
 const keypair = Keypair.fromSecretKey(
   bs58.decode(secret)
 );
